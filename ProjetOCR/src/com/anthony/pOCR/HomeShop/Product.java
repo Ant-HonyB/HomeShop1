@@ -3,7 +3,7 @@ package com.anthony.pOCR.HomeShop;
 public class Produit {
     String name;
     String descrption;
-    double Price;
+    double price;
 
     /**
      * Premiere methode : Affiche une description complête du produit
@@ -19,5 +19,21 @@ public class Produit {
      */
     public void buy(Bill bill, Integer quantity) {
 
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescrption() {
+        return descrption;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 }

@@ -26,4 +26,20 @@ public class Four {
         System.out.println("la puissance est désormais modifiée.");
         this.puissance = puissance;
     }
+
+    public Resistance getResistance() {
+        return resistance;
+    }
+
+    public Soufflerie getSoufflerie() {
+        return soufflerie;
+    }
+
+    public int getCapacite() {
+        return capacite;
+    }
+
+    public void setCapacite(int capacite) {
+        this.capacite = capacite;
+    }
 }
