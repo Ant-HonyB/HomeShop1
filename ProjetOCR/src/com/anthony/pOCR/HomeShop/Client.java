@@ -1,8 +1,8 @@
 package com.anthony.pOCR.HomeShop;
 
 public class Client {
-    String nomComplet;
-    String adresse;
+    private String nomComplet;
+    private String adresse;
 
     public String getNomComplet() {
         return nomComplet;

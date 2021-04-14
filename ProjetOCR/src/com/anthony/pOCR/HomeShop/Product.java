@@ -1,9 +1,9 @@
 package com.anthony.pOCR.HomeShop;
 
 public class Produit {
-    String name;
-    String descrption;
-    double price;
+    private String name;
+    private String descrption;
+    private double price;
 
     /**
      * Premiere methode : Affiche une description complête du produit

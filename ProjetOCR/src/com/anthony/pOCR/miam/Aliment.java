@@ -1,8 +1,8 @@
 package com.anthony.pOCR.miam;
 
 public class Aliment {
-    String nom;
-    boolean bienCuit;
+    private String nom;
+    private boolean bienCuit;
 
     public void manger() {
         if (bienCuit) {
