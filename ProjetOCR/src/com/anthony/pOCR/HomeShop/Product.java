@@ -14,8 +14,8 @@ public class Product {
     /**
      * Premiere methode : Affiche une description complête du produit
      */
-    public void coupDoeil(){
-
+    public void visu(){
+        System.out.println(String.format(nom + " : " + prix + "%n" + description));
     }
 
     /**
