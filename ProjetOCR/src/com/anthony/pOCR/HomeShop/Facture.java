@@ -1,7 +1,9 @@
 package com.anthony.pOCR.HomeShop;
 
+import java.util.Map;
+
 public class Facture {
-    private Customer customer;
+    private Client client;
     private Map<Produit, Integer> produits;
 
     public Facture(Client client) {
@@ -17,8 +19,8 @@ public class Facture {
         this.produits.put(produit, quantite);
     }
 
-    public Customer getCustomer() {
-        return customer;
+    public client getClient() {
+        return client;
     }
 
     public Map<Produit, Integer> getProduits() {

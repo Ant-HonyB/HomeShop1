@@ -6,9 +6,9 @@ public class Produit {
     private double prix;
 
     public Produit(String nom, String description, double prix) {
-        this.name = name;
-        this.descrption = descrption;
-        this.price = price;
+        this.nom = nom;
+        this.description = description;
+        this.prix = prix;
     }
 
     /**
