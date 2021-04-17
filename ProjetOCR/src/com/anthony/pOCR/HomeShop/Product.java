@@ -1,39 +1,45 @@
 package com.anthony.pOCR.HomeShop;
 
 public class Produit {
-    private String name;
-    private String descrption;
-    private double price;
+    private String nom;
+    private String description;
+    private double prix;
+
+    public Produit(String nom, String description, double prix) {
+        this.name = name;
+        this.descrption = descrption;
+        this.price = price;
+    }
 
     /**
      * Premiere methode : Affiche une description complête du produit
      */
-    public void look(){
+    public void coupDoeil(){
 
     }
 
     /**
      * Ajoute le produit à une facture
-     * @param bill la facture concernée
-     * @param quantity la quantité du produit à ajouter
+     * @param facture la facture concernée
+     * @param quantite la quantité du produit à ajouter
      */
-    public void buy(Bill bill, Integer quantity) {
+    public void acheter(Facture facture, Integer quantite) {
 
     }
 
-    public String getName() {
-        return name;
+    public String getNom() {
+        return nom;
     }
 
-    public String getDescrption() {
-        return descrption;
+    public String getDescription() {
+        return description;
     }
 
-    public double getPrice() {
-        return price;
+    public double getPrix() {
+        return prix;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
+    public void setPrix(double prix) {
+        this.prix = prix;
     }
 }
