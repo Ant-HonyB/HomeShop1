@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class Facture {
     private Client client;
-    private Map<Produit, Integer> produits;
+    private Map<Product, Integer> produits;
 
     public Facture(Client client) {
         this.client = client;
@@ -15,15 +15,15 @@ public class Facture {
      * @param produit le produit à ajouter
      * @param quantite la quantité du produit
      */
-    public void addProduit(Produit produit, Integer quantite) {
+    public void addProduit(Product produit, Integer quantite) {
         this.produits.put(produit, quantite);
     }
 
-    public client getClient() {
+    public Client getClient() {
         return client;
     }
 
-    public Map<Produit, Integer> getProduits() {
+    public Map<Product, Integer> getProduits() {
         return produits;
     }
 }

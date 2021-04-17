@@ -1,11 +1,11 @@
 package com.anthony.pOCR.HomeShop;
 
-public class Produit {
+public class Product {
     private String nom;
     private String description;
     private double prix;
 
-    public Produit(String nom, String description, double prix) {
+    public Product(String nom, String description, double prix) {
         this.nom = nom;
         this.description = description;
         this.prix = prix;
